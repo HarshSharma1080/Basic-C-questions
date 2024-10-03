@@ -8,7 +8,7 @@ int main(){
             if(i%a!=0){
                 x--;
             }
-                    }
+               }
         if (x<=1){
             printf("%d\n",i);//prime number
         }
