@@ -1,3 +1,4 @@
+// To print sum of first n numbers.
 #include<stdio.h>
 int main(){
     int num,sum;
