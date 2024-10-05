@@ -1,13 +1,14 @@
 // To find exponent.
 #include<stdio.h>
 int main(){
-  int num,expo,ans;
+  int num,expo,ans=1;
   printf("Enter a number to find its power: ");
-  scanf("%",&num);
-  printf("which power do you want to find out: ");
+  scanf("%d",&num);
+  printf("\nwhich power do you want to find out: ");
   scanf("%d",&expo);
-  for(int i;i<=expo;i++){
+  for(int i=1;i<=expo;i++){
     ans*=num;
   }
   printf("%d",ans);
+  return 0;
 }
