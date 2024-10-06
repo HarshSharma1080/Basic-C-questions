@@ -5,8 +5,7 @@ int main(){
     int val,a=0;
     printf("enter a number to count number of digits in it: ");
     scanf("%f",&num);
-    
-  do{
+    do{
       val=num/10;
       a+=1;
       num=val;
